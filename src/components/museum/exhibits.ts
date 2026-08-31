@@ -32,6 +32,13 @@ import mughalAtelier from "@/assets/museum/wall-mughal-atelier.jpg";
 import krishnaRajput from "@/assets/museum/wall-krishna-rajput.jpg";
 import miniatureTechnique from "@/assets/museum/wall-miniature-technique.jpg";
 
+import raviVarma from "@/assets/museum/modern-ravi-varma.png";
+import sherGil from "@/assets/museum/modern-sher-gil.png";
+import progressiveGroup from "@/assets/museum/modern-progressive-group.png";
+import bengalSchool from "@/assets/museum/wall-bengal-school.jpg";
+import raviVarmaPress from "@/assets/museum/wall-ravi-varma-press.jpg";
+import indianModernism from "@/assets/museum/wall-indian-modernism.jpg";
+
 /**
  * Reusable exhibit system.
  *
