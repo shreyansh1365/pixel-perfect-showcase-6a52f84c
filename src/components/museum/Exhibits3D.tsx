@@ -59,6 +59,10 @@ export function ArtifactExhibit({
 
   return (
     <group>
+      {/* No castShadow here: every shadow-casting light consumes a fragment
+          texture unit, and with all galleries populated the scene exceeded
+          MAX_TEXTURE_IMAGE_UNITS(16), which made shaders fail to compile and
+          the museum render as an empty void. */}
       <spotLight
         ref={spot}
         position={[position[0], position[1] + 4.2, position[2] + 0.6]}
@@ -68,7 +72,6 @@ export function ArtifactExhibit({
         distance={12}
         decay={2}
         color="#fff6e6"
-        castShadow
       />
       <group ref={group} position={[position[0], position[1] + h / 2, position[2]]}>
         <mesh
