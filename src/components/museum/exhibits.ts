@@ -25,6 +25,13 @@ import brihadeeswarar from "@/assets/museum/wall-brihadeeswarar.jpg";
 import dravidianGopuram from "@/assets/museum/wall-dravidian-gopuram.jpg";
 import bronzeCasting from "@/assets/museum/wall-bronze-casting.jpg";
 
+import mughalMiniature from "@/assets/museum/mughal-miniature.jpg";
+import rajputPainting from "@/assets/museum/rajput-painting.jpg";
+import pahariPainting from "@/assets/museum/pahari-painting.jpg";
+import mughalAtelier from "@/assets/museum/wall-mughal-atelier.jpg";
+import krishnaRajput from "@/assets/museum/wall-krishna-rajput.jpg";
+import miniatureTechnique from "@/assets/museum/wall-miniature-technique.jpg";
+
 /**
  * Reusable exhibit system.
  *
