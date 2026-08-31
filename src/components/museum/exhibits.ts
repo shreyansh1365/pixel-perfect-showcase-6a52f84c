@@ -396,5 +396,87 @@ export const EXHIBITS: Record<string, GalleryExhibits> = {
       },
     ],
   },
+  "05": {
+    intro: "Pigment on paper — the courts of Hindustan in miniature.",
+    artifacts: [
+      {
+        id: "mughal-miniature",
+        slot: "case-center",
+        height: 1.7,
+        image: mughalMiniature,
+        label: ["MUGHAL MINIATURE PAINTING", "c. 16th–18th century CE", "Pigment on paper"],
+        name: "Mughal Miniature Painting",
+        period: "Mughal & Rajput Painting",
+        date: "c. 16th–18th century CE",
+        material: "Opaque watercolour, gold and ink on paper",
+        origin: "Imperial ateliers of Delhi, Agra and Lahore",
+        description:
+          "A crowded court assembles in cool, exact perspective: the emperor raised on a canopied throne, courtiers ranked by precedence, each face an individual likeness rather than a type. Margins are ruled in gold, and the detail — a jewelled turban ornament, the grain of a carpet, a bird in the middle distance — is painted with a brush of a few hairs.",
+        context:
+          "The imperial atelier brought Persian masters together with Indian painters trained in local manuscript traditions. Akbar set them to illustrate histories and epics in workshop teams; Jahangir narrowed the focus to portraiture, natural history and single exquisite pages, sitting in judgement on his artists' work and demanding observation from life.",
+        significance:
+          "Mughal painting fused Persian design, European modelling and Indian colour into a wholly new courtly art — the first sustained tradition of naturalistic portraiture and reportage in South Asia, and the record through which the empire chose to be remembered.",
+      },
+      {
+        id: "rajput-miniature",
+        slot: "pedestal-left",
+        height: 1.45,
+        image: rajputPainting,
+        label: ["RAJPUT MINIATURE PAINTING", "c. 16th–19th century CE", "Pigment on paper"],
+        name: "Rajput Miniature Painting",
+        period: "Mughal & Rajput Painting",
+        date: "c. 16th–19th century CE",
+        material: "Opaque watercolour on paper",
+        origin: "Rajasthani and Central Indian courts — Mewar, Bundi, Kishangarh, Malwa",
+        description:
+          "Flat fields of saturated colour — vermilion, indigo, ochre — divide the page into zones of feeling rather than depth. Figures are drawn in sharp profile with large eyes, set against stylised palaces, storm clouds and flowering trees that carry the emotion of the moment.",
+        context:
+          "Each Rajput court developed its own manner while sharing a repertoire drawn from devotional poetry: the Ragamala series that give visual form to musical modes, the Barahmasa cycles of the twelve months, and the loves of Radha and Krishna. Painters worked for princes and temples rather than an empire, so regional idiom mattered more than uniform polish.",
+        significance:
+          "Where Mughal painting observes, Rajput painting evokes. Its bold colour and symbolic landscape make it the great narrative and lyrical tradition of Indian painting, and the source most drawn upon by later modern Indian artists.",
+      },
+      {
+        id: "pahari-miniature",
+        slot: "pedestal-right",
+        height: 1.45,
+        image: pahariPainting,
+        label: ["PAHARI MINIATURE PAINTING", "c. 17th–19th century CE", "Northern India"],
+        name: "Pahari Miniature Painting",
+        period: "Mughal & Rajput Painting",
+        date: "c. 17th–19th century CE",
+        material: "Opaque watercolour and gold on paper",
+        origin: "Himalayan foothill states — Basohli, Guler, Kangra, Chamba",
+        description:
+          "Slender figures move through soft green hills and river bends, drawn with an unbroken, tender line. Colour is cooler and more atmospheric than in the plains: pale skies, mists, blossoming trees and a distant horizon that gives the scene air.",
+        context:
+          "Painting reached the small hill kingdoms with families of artists trained in Mughal workshops, notably the lineage of Pandit Seu at Guler and Kangra. Working for hill rajas devoted to Krishna, they illustrated the Gita Govinda, the Bhagavata Purana and the Rasikapriya, matching poetic sentiment to landscape.",
+        significance:
+          "Pahari painting is the lyrical summit of the miniature tradition — the point at which line, landscape and devotional poetry become one, and the last flowering of court painting before photography and print.",
+      },
+    ],
+    walls: [
+      {
+        id: "wall-mughal-court",
+        slot: "wall-a",
+        image: mughalAtelier,
+        title: "The Mughal Court",
+        caption: "Imperial patronage and the workshop of painters",
+      },
+      {
+        id: "wall-krishna-rajput",
+        slot: "wall-b",
+        image: krishnaRajput,
+        title: "Krishna in Rajput Art",
+        caption: "Devotion and poetry as the subject of painting",
+      },
+      {
+        id: "wall-miniature-craft",
+        slot: "wall-c",
+        image: miniatureTechnique,
+        title: "The Art of Miniature Painting",
+        caption: "Handmade paper, mineral pigments, brushes of a few hairs",
+      },
+    ],
+  },
 };
 
