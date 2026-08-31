@@ -18,6 +18,13 @@ import ajantaMural from "@/assets/museum/gupta-ajanta-mural.jpg";
 import ajantaCaves from "@/assets/museum/wall-ajanta-caves.jpg";
 import guptaTemple from "@/assets/museum/wall-gupta-temple.jpg";
 
+import cholaNataraja from "@/assets/museum/chola-nataraja.png";
+import cholaBronzes from "@/assets/museum/chola-bronzes.png";
+import templeSculpture from "@/assets/museum/south-indian-temple-sculpture.png";
+import brihadeeswarar from "@/assets/museum/wall-brihadeeswarar.jpg";
+import dravidianGopuram from "@/assets/museum/wall-dravidian-gopuram.jpg";
+import bronzeCasting from "@/assets/museum/wall-bronze-casting.jpg";
+
 /**
  * Reusable exhibit system.
  *
@@ -297,6 +304,88 @@ export const EXHIBITS: Record<string, GalleryExhibits> = {
         image: guptaTemple,
         title: "Gupta Temple Architecture",
         caption: "The first structural shrines in dressed stone",
+      },
+    ],
+  },
+  "04": {
+    intro: "Bronze, granite and the temple as the centre of art in the medieval south.",
+    artifacts: [
+      {
+        id: "chola-nataraja",
+        slot: "case-center",
+        height: 2.05,
+        image: cholaNataraja,
+        label: ["NATARAJA", "Chola Period · c. 10th–12th century CE", "Bronze · Tamil Nadu"],
+        name: "Nataraja — Dancing Shiva",
+        period: "Medieval & South Indian Art",
+        date: "c. 10th–12th century CE",
+        material: "Bronze, lost-wax casting",
+        origin: "Chola country, Tamil Nadu",
+        description:
+          "Shiva dances inside a ring of flame, four arms held in perfect equilibrium: one beats the hourglass drum, one holds fire, one is raised in reassurance, one sweeps across the body in the gesture of the dance. One foot presses down a small crouching figure while the other lifts free, and the flying locks and sashes freeze a single instant of motion.",
+        context:
+          "The bronze was made for worship, not display. Under the Chola kings of the tenth to twelfth centuries, temple workshops cast icons that were bathed, dressed, garlanded and carried through the streets on festival days — which is why the base is pierced with slots for carrying poles. The ring of flames, the drum and the trampled figure of ignorance make a compact diagram of creation, preservation and release.",
+        significance:
+          "The Nataraja is the most concentrated image in Indian art: a theological argument resolved as a dancing body in balance. Its poise made it the emblem of South Indian bronze casting and one of the most widely recognised sculptural forms in the world.",
+      },
+      {
+        id: "chola-bronzes",
+        slot: "pedestal-left",
+        height: 1.45,
+        image: cholaBronzes,
+        label: ["CHOLA BRONZES", "c. 9th–13th century CE", "Bronze · South India"],
+        name: "Chola Bronzes",
+        period: "Medieval & South Indian Art",
+        date: "c. 9th–13th century CE",
+        material: "Bronze, lost-wax casting",
+        origin: "Tamil Nadu",
+        description:
+          "Slender standing deities and saints rise from lotus bases, bodies gently flexed at hip and shoulder, faces calm and ornament crisply modelled. Each stands on a plinth with lugs and rings — fittings for the poles that carried them in procession.",
+        context:
+          "Chola bronzes were cast solid by the lost-wax method: a wax model was built up in detail, coated in fine clay, fired so the wax ran out, then filled with molten alloy and broken free — meaning every image is unique, since the mould is destroyed to release it. Metalworking guilds worked to canonical proportions set out in image-making treatises, and temple inscriptions record the donors who paid for the metal.",
+        significance:
+          "Bronze made images mobile. Where stone sculpture stayed fixed in the shrine, these portable icons brought the deity out to the community, and their technical control and restrained sensuousness are regarded as the high point of metal sculpture in Asia.",
+      },
+      {
+        id: "south-indian-temple-sculpture",
+        slot: "pedestal-right",
+        height: 1.6,
+        image: templeSculpture,
+        label: ["TEMPLE SCULPTURE", "Medieval South India", "Stone"],
+        name: "Temple Sculpture",
+        period: "Medieval & South Indian Art",
+        date: "c. 7th–14th century CE",
+        material: "Granite and sandstone",
+        origin: "Tamil Nadu, Karnataka and the Deccan",
+        description:
+          "A carved panel of a deity flanked by attendants, cut in hard granite with firm outlines and shallow, confident modelling. The figures sit within a framing niche, designed to be read from the walkway of a temple wall rather than in the round.",
+        context:
+          "The medieval temple was the region's workshop, treasury, school and stage, and sculpture was inseparable from its architecture. Niches on the outer walls carried the principal deities, plinths and pillars carried dancers, musicians, guardians and narrative episodes, and doorways carried protective figures. Pallava, Chalukya, Hoysala and Chola workshops each developed distinct handling of the same shared repertoire.",
+        significance:
+          "Placement was meaning: as a worshipper circled the shrine, the sequence of carvings unfolded as an ordered account of myth and cosmos. This union of building and image defines the temple traditions of southern India and shaped religious architecture across Southeast Asia.",
+      },
+    ],
+    walls: [
+      {
+        id: "wall-brihadisvara",
+        slot: "wall-a",
+        image: brihadeeswarar,
+        title: "Brihadisvara Temple",
+        caption: "Thanjavur, c. 1010 CE — the summit of Chola architecture",
+      },
+      {
+        id: "wall-dravidian-architecture",
+        slot: "wall-b",
+        image: dravidianGopuram,
+        title: "South Indian Temple Architecture",
+        caption: "Dravidian towers and tiers dense with sculpture",
+      },
+      {
+        id: "wall-lost-wax",
+        slot: "wall-c",
+        image: bronzeCasting,
+        title: "The Lost-Wax Process",
+        caption: "Wax model, clay mould, molten bronze — a single unique cast",
       },
     ],
   },
