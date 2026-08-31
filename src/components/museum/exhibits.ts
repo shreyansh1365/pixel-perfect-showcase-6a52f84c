@@ -12,6 +12,12 @@ import ashokanPillar from "@/assets/museum/wall-ashokan-pillar.jpg";
 import sanchiGateway from "@/assets/museum/wall-sanchi-gateway.jpg";
 import rockCutSanctuaries from "@/assets/museum/wall-rock-cut.jpg";
 
+import guptaBuddha from "@/assets/museum/gupta-buddha.png";
+import classicalSculpture from "@/assets/museum/gupta-classical-sculpture.png";
+import ajantaMural from "@/assets/museum/gupta-ajanta-mural.jpg";
+import ajantaCaves from "@/assets/museum/wall-ajanta-caves.jpg";
+import guptaTemple from "@/assets/museum/wall-gupta-temple.jpg";
+
 /**
  * Reusable exhibit system.
  *
