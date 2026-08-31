@@ -308,16 +308,23 @@ function Corridor() {
         <meshBasicMaterial color="#fffaf0" />
       </mesh>
 
-      {/* rhythm of piers along the corridor */}
+      {/* rhythm of piers along the corridor — skipped where a doorway/title sits */}
       {Array.from({ length: 10 }).map((_, i) => {
         const z = CORRIDOR_START - 4 - i * 9;
+        const blocksDoorway = (side: -1 | 1) =>
+          GALLERIES.some((g) => g.side === side && Math.abs(g.z - z) < 4.2);
         return (
           <group key={i}>
-            <Box position={[-HW + 0.45, WALL_H / 2, z]} size={[0.5, WALL_H, 0.5]} material={sandstone} />
-            <Box position={[HW - 0.45, WALL_H / 2, z]} size={[0.5, WALL_H, 0.5]} material={sandstone} />
+            {!blocksDoorway(-1) && (
+              <Box position={[-HW + 0.45, WALL_H / 2, z]} size={[0.5, WALL_H, 0.5]} material={sandstone} />
+            )}
+            {!blocksDoorway(1) && (
+              <Box position={[HW - 0.45, WALL_H / 2, z]} size={[0.5, WALL_H, 0.5]} material={sandstone} />
+            )}
           </group>
         );
       })}
+
 
       {/* end wall */}
       <WallX z={CORRIDOR_END} x1={-HW} x2={HW} material={plaster} />
