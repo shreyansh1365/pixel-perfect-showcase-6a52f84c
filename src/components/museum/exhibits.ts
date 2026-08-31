@@ -18,6 +18,13 @@ import ajantaMural from "@/assets/museum/gupta-ajanta-mural.jpg";
 import ajantaCaves from "@/assets/museum/wall-ajanta-caves.jpg";
 import guptaTemple from "@/assets/museum/wall-gupta-temple.jpg";
 
+import cholaNataraja from "@/assets/museum/chola-nataraja.png";
+import cholaBronzes from "@/assets/museum/chola-bronzes.png";
+import templeSculpture from "@/assets/museum/south-indian-temple-sculpture.png";
+import brihadeeswarar from "@/assets/museum/wall-brihadeeswarar.jpg";
+import dravidianGopuram from "@/assets/museum/wall-dravidian-gopuram.jpg";
+import bronzeCasting from "@/assets/museum/wall-bronze-casting.jpg";
+
 /**
  * Reusable exhibit system.
  *
