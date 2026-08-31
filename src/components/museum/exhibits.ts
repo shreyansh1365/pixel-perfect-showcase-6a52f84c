@@ -219,4 +219,80 @@ export const EXHIBITS: Record<string, GalleryExhibits> = {
       },
     ],
   },
+  "03": {
+    intro: "Serene proportion and classical balance — the golden age of Indian form.",
+    artifacts: [
+      {
+        id: "gupta-buddha",
+        slot: "pedestal-left",
+        height: 1.75,
+        image: guptaBuddha,
+        label: ["BUDDHA IMAGE OF THE GUPTA PERIOD", "c. 5th century CE", "Sandstone · Northern India"],
+        name: "Buddha Image of the Gupta Period",
+        period: "Gupta & Classical Art",
+        date: "c. 5th century CE",
+        material: "Sandstone",
+        origin: "Northern India (Sarnath and Mathura workshops)",
+        description:
+          "The Buddha stands with lowered eyes and a faint inward smile, the robe clinging to the body in fine, almost weightless folds. Tight snail-shell curls cover the head, a halo frames it, and the proportions follow a calm mathematical harmony rather than muscular display.",
+        context:
+          "Gupta-period workshops at Sarnath and Mathura distilled the earlier Gandharan and Kushan experiments into a single idealized type. Sculptors worked from canonical proportions and prescribed marks of a great being, so that the figure reads as a state of mind made visible instead of a portrait.",
+        significance:
+          "This is the classical Buddha image: serene, balanced, self-contained. It became the model carried by monks and merchants to Southeast Asia, China and Japan, and its measured proportions shaped Indian sculpture for the next thousand years.",
+      },
+      {
+        id: "gupta-classical-sculpture",
+        slot: "pedestal-right",
+        height: 1.5,
+        image: classicalSculpture,
+        label: ["CLASSICAL INDIAN SCULPTURE", "Gupta Period", "Stone"],
+        name: "Classical Indian Sculpture",
+        period: "Gupta & Classical Art",
+        date: "c. 4th–6th century CE",
+        material: "Stone",
+        origin: "Northern and Central India",
+        description:
+          "A gently swaying figure turns at the hip, the body composed of smooth, unbroken volumes. Ornament is restrained and the drapery is barely incised, so attention falls on the rhythm of the pose and the quiet expression of the face.",
+        context:
+          "Alongside Buddhist images, Gupta workshops produced Hindu and Jain figures for the earliest structural temples. Sculptors codified proportion, stance and gesture into a shared grammar recorded in later treatises on image-making, giving craftsmen across regions a common measure of beauty.",
+        significance:
+          "Refinement rather than grandeur defines this phase: spiritual feeling expressed through balance, restraint and idealized form. That grammar of proportion passed directly into the Chalukya, Pallava, Chola and later temple traditions.",
+      },
+      {
+        id: "gupta-ajanta-paintings",
+        slot: "case-center",
+        height: 1.65,
+        image: ajantaMural,
+        label: ["AJANTA CAVE PAINTINGS", "c. 2nd century BCE–6th century CE", "Murals · Maharashtra"],
+        name: "Ajanta Cave Paintings",
+        period: "Gupta & Classical Art",
+        date: "c. 2nd century BCE–6th century CE",
+        material: "Mural painting on lime plaster",
+        origin: "Ajanta, Maharashtra",
+        description:
+          "Crowded courts, bodhisattvas with downcast eyes, dancers, animals and travellers move across the cave walls in continuous scenes. Figures are modelled with soft tonal shading and outlined in fluid, confident line, their gestures carrying the emotion of the story.",
+        context:
+          "Thirty rock-cut halls and monasteries curve around a river gorge in the Waghora valley. Painters laid earth pigments over a prepared clay-and-lime ground, working by reflected daylight. The scenes illustrate the Jataka tales of the Buddha's former lives, unfolding without frames so that a walking visitor reads them as a narrative.",
+        significance:
+          "Ajanta is the finest surviving body of early Indian painting and the foundation of narrative pictorial art in Asia. Its shading, spatial layering and expressive gesture set conventions that reach forward to later mural, manuscript and miniature traditions.",
+      },
+    ],
+    walls: [
+      {
+        id: "wall-ajanta-caves",
+        slot: "wall-a",
+        image: ajantaCaves,
+        title: "The Ajanta Caves",
+        caption: "Rock-cut monasteries above the Waghora gorge",
+      },
+      {
+        id: "wall-gupta-temple",
+        slot: "wall-c",
+        image: guptaTemple,
+        title: "Gupta Temple Architecture",
+        caption: "The first structural shrines in dressed stone",
+      },
+    ],
+  },
 };
+
