@@ -18,7 +18,7 @@ export const GALLERY_SPACING = 20;
 export const GALLERIES: GalleryDef[] = [
   { n: "01", title: "Indus Valley", years: "3300–1300 BCE", side: -1, z: -6 },
   { n: "02", title: "Mauryan & Buddhist", years: "322 BCE–600 CE", side: 1, z: -6 },
-  { n: "03", title: "Gupta & Classical", years: "320–550 CE", side: -1, z: -26 },
+  { n: "03", title: "Gupta & Classical", years: "320–600 CE", side: -1, z: -26 },
   { n: "04", title: "Medieval & South Indian", years: "600–1500 CE", side: 1, z: -26 },
   { n: "05", title: "Mughal & Rajput", years: "1500–1850 CE", side: -1, z: -46 },
   { n: "06", title: "Modern Indian Art", years: "1850–1980 CE", side: 1, z: -46 },
