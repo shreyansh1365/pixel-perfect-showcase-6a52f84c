@@ -485,5 +485,88 @@ export const EXHIBITS: Record<string, GalleryExhibits> = {
       },
     ],
   },
+
+  "06": {
+    intro: "Oil on canvas — Indian art meets the modern world.",
+    artifacts: [
+      {
+        id: "ravi-varma",
+        slot: "case-center",
+        height: 1.85,
+        image: raviVarma,
+        label: ["RAJA RAVI VARMA", "c. 1870–1906 CE", "Oil on canvas"],
+        name: "Raja Ravi Varma",
+        period: "Colonial & Modern Indian Art",
+        date: "c. 1848–1906 CE",
+        material: "Oil on canvas; oleograph prints",
+        origin: "Travancore, Kerala, and the princely courts of western India",
+        description:
+          "A woman in gold-shot silk turns towards the viewer, modelled in soft chiaroscuro with the finish of a European salon portrait. Fabric, jewellery and skin are rendered in graded oil glazes, while the subject, bearing and setting remain unmistakably Indian.",
+        context:
+          "Trained in the oil technique brought to India by colonial art schools and visiting European painters, Ravi Varma worked for princely patrons before setting up a lithographic press near Bombay. His oleographs of gods and heroines sold in their thousands, entering shops, calendars and household shrines across the subcontinent.",
+        significance:
+          "Ravi Varma gave Indian mythology a realist, human face and, through cheap colour print, created the first genuinely national visual culture — the image of Lakshmi or Shakuntala most Indians still carry began on his easel.",
+      },
+      {
+        id: "amrita-sher-gil",
+        slot: "pedestal-left",
+        height: 1.5,
+        image: sherGil,
+        label: ["AMRITA SHER-GIL", "c. 1932–1941 CE", "Oil on canvas"],
+        name: "Amrita Sher-Gil",
+        period: "Colonial & Modern Indian Art",
+        date: "c. 1913–1941 CE",
+        material: "Oil on canvas",
+        origin: "Paris, Simla, Saraya and Lahore",
+        description:
+          "Three village women sit in silence, their faces elongated and impassive, their saris laid down as flat fields of ochre, terracotta and deep green. There is no salon polish and no picturesque charm — only weight, stillness and a deliberately reduced palette.",
+        context:
+          "Trained in Paris and steeped in post-impressionist painting, Sher-Gil returned to India in 1934 and turned away from European subjects towards the rural poor, Ajanta's murals and Pahari miniatures. She died at twenty-eight, leaving a compact body of work made in barely a decade.",
+        significance:
+          "She severed modern Indian painting from both academic realism and nationalist revivalism, proving that a modern language could be built from Indian form and Indian lives. Almost every later Indian modernist begins from her example.",
+      },
+      {
+        id: "progressive-artists-group",
+        slot: "pedestal-right",
+        height: 1.5,
+        image: progressiveGroup,
+        label: ["PROGRESSIVE ARTISTS' GROUP", "founded 1947 CE", "Oil on canvas"],
+        name: "The Progressive Artists' Group",
+        period: "Colonial & Modern Indian Art",
+        date: "founded 1947, active into the 1950s",
+        material: "Oil on canvas",
+        origin: "Bombay",
+        description:
+          "Figures are broken into angular planes of crimson, ultramarine and ochre, laid on in thick, worked paint. Perspective is abandoned; the picture is built as a flat architecture of colour in which a head, a house and a moon hold equal structural weight.",
+        context:
+          "Formed in Bombay in the year of independence by artists including F. N. Souza, S. H. Raza, M. F. Husain, K. H. Ara, S. K. Bakre and H. A. Gade, the group rejected both colonial academic training and the sentimental revivalism of the Bengal School. They looked to European modernism and to Indian folk, tribal and temple art at once, exhibiting together before dispersing to Paris, London and beyond.",
+        significance:
+          "The group set the terms of post-independence Indian art: a self-consciously modern practice answerable to international modernism yet rooted in Indian material. Its members became the defining artists of twentieth-century India.",
+      },
+    ],
+    walls: [
+      {
+        id: "wall-bengal-school",
+        slot: "wall-a",
+        image: bengalSchool,
+        title: "The Bengal School",
+        caption: "Wash technique and a revivalist search for Indian identity",
+      },
+      {
+        id: "wall-ravi-varma-press",
+        slot: "wall-b",
+        image: raviVarmaPress,
+        title: "Ravi Varma and the Printing Press",
+        caption: "Oleographs that carried painting into every Indian home",
+      },
+      {
+        id: "wall-indian-modernism",
+        slot: "wall-c",
+        image: indianModernism,
+        title: "Indian Modernism",
+        caption: "Studios, groups and new artistic identities after 1947",
+      },
+    ],
+  },
 };
 
