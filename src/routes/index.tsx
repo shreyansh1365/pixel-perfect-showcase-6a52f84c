@@ -50,7 +50,7 @@ const ERAS = [
   {
     n: "03",
     title: "Gupta & Classical Art",
-    years: "320–550 CE",
+    years: "c. 320–600 CE",
     note: "The classical idiom — serene sculpture, Ajanta murals, refined proportion.",
   },
   {
